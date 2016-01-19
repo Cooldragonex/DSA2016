@@ -16,4 +16,5 @@ private:
 	};
 
 	Node *firstNode;	
-	int  size;		
+	int  size;
+
