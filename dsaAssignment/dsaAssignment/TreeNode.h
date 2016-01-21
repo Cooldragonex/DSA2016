@@ -11,10 +11,10 @@ class TreeNode
 private:
 	struct Node
 	{
-		ItemType item;	
-		Node     *next;	
+		ItemType item;
+		Node     *next;
 	};
 
-	Node *firstNode;	
+	Node *firstNode;
 	int  size;
-
+};
