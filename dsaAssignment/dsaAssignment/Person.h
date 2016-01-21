@@ -5,54 +5,25 @@ using namespace std;
 class Person
 {
 public:
-	Person(string n, string b, string d, string occ, string addr)
-	{
-		name = n;
-		birth = b;
-		death = d;
-		occupation = occ;
-		address = addr;
+	Person() {};
+	Person(string name, string birth, string death, string occupation, string address);
+	string setName();
+	string getName();
 
-	};
+	string setBirth();
+	string getBirth();
 
-	string getName()
-	{
-		return name;
-	}
-	void setName(string n)
-	{
-		name = n;
-	}
-	string getBirth()
-	{
-		return birth;
-	}
-	void setBirth(string b)
-	{
-		birth = b;
-	}string getDeath()
-	{
-		return death;
-	}
-	void setDeath(string d)
-	{
-		death = d;
-	}string getOccupation()
-	{
-		return occupation;
-	}
-	void setOccupation(string occ)
-	{
-		occupation = occ;
-	}
-	string getAddr()
-	{
-		return address;
-	}
-	void setAddr(string addr)
-	{
-		address = addr;
-	}
+	string setDeath();
+	string setDeath();
+
+	string setDeath();
+	string getDeath();
+
+	string setOccupation();
+	string getOccupation();
+
+	string setAddress();
+	string getAddress();
 
 private:
 	string name;

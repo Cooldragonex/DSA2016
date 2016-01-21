@@ -51,7 +51,6 @@ int _tmain(int argc, _TCHAR* argv[])
 		}
 	} while (userInput != 0);
 
-
 	system("PAUSE");
 	return 0;
 };
